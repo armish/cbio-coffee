@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_mskcc_cbio_fun_model_event_MakePayment" items="${makepayments}" z="q7GDabOj53ElN5d5dzyYFhhGFFE=">
+        <table:table data="${makepayments}" id="l_org_mskcc_cbio_fun_model_event_MakePayment" path="/makepayments" z="wsLYy+lY4iSLCNnq/Nhzt8C/SuI=">
+            <table:column id="c_org_mskcc_cbio_fun_model_event_MakePayment_price" property="price" z="hAZIKAuiik+O6FIqrqzlA3wxGn0="/>
+            <table:column id="c_org_mskcc_cbio_fun_model_event_MakePayment_coffeeDrinker" property="coffeeDrinker" z="sqMSMRLAhfHP29Qk4GS6jTg3VuA="/>
+            <table:column date="true" dateTimePattern="${makePayment_eventdate_date_format}" id="c_org_mskcc_cbio_fun_model_event_MakePayment_eventDate" property="eventDate" z="iDzs/X0Ve2VP2nT7nGqzJ+3dv7w="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_mskcc_cbio_fun_model_event_MakePayment" object="${makepayment}" path="/makepayments" z="21Rf78vbnmRdvEtpw1VUeHwpe3Y=">
+        <field:display field="price" id="s_org_mskcc_cbio_fun_model_event_MakePayment_price" object="${makepayment}" z="H2M/MR5i/j5txKDc7cxL325zsRE="/>
+        <field:display field="coffeeDrinker" id="s_org_mskcc_cbio_fun_model_event_MakePayment_coffeeDrinker" object="${makepayment}" z="R/voj+h9UlMxXwXF0ZplReG0oyM="/>
+        <field:display date="true" dateTimePattern="${makePayment_eventdate_date_format}" field="eventDate" id="s_org_mskcc_cbio_fun_model_event_MakePayment_eventDate" object="${makepayment}" z="4swc90UBffeiSa53gTjW+bkK60Q="/>
+    </page:show>
+</div>

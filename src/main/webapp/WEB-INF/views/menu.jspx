@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_drinkcoffee" z="jqkAIPdHIr4I+95eBNHOSqzSmXY=">
+            <menu:item id="i_drinkcoffee_new" messageCode="global_menu_new" url="/drinkcoffees?form" z="IdNBvqH5RXjBnGcRBPEQnWmDcbI="/>
+            <menu:item id="i_drinkcoffee_list" messageCode="global_menu_list" url="/drinkcoffees?page=1&amp;size=${empty param.size ? 10 : param.size}" z="X81MbwvnWBSnQBtADNSQnXdDj3M="/>
+            <menu:item id="fi_drinkcoffee_coffeedrinker" messageCode="global_menu_find" url="/drinkcoffees?find=ByCoffeeDrinker&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="0kxmQ+DAJYaKRENNBelqjZ4E+dk="/>
+            <menu:item id="fi_drinkcoffee_eventdateequals" messageCode="global_menu_find" url="/drinkcoffees?find=ByEventDateEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="CLG5NTz47uZZ8+OUaGQqdLOxXas="/>
+            <menu:item id="fi_drinkcoffee_eventdategreaterthan" messageCode="global_menu_find" url="/drinkcoffees?find=ByEventDateGreaterThan&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="vbgnF0+v8BU7TwYyCsg80tuGki8="/>
+            <menu:item id="fi_drinkcoffee_eventdatelessthanequals" messageCode="global_menu_find" url="/drinkcoffees?find=ByEventDateLessThanEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Evx5tyAsM13IfkdUueYrahiXNLg="/>
+            <menu:item id="fi_drinkcoffee_pricebetween" messageCode="global_menu_find" url="/drinkcoffees?find=ByPriceBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="nh13qgq88YEnkGTF50TtemQORVk="/>
+        </menu:category>
+        <menu:category id="c_coffeedrinker" z="/X3Lf9c75WLos3AtI1Asso4Chjg=">
+            <menu:item id="i_coffeedrinker_new" messageCode="global_menu_new" url="/coffeedrinkers?form" z="4vlN9nanQVsOpW3bIs0R6bzM1bw="/>
+            <menu:item id="i_coffeedrinker_list" messageCode="global_menu_list" url="/coffeedrinkers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lOiV4wpTjqFN8JXV5pjFQZ5l/lM="/>
+            <menu:item id="fi_coffeedrinker_emailequals" messageCode="global_menu_find" url="/coffeedrinkers?find=ByEmailEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Q0e9HjAfGWdywO3a7MBELBpTFP0="/>
+            <menu:item id="fi_coffeedrinker_emaillike" messageCode="global_menu_find" url="/coffeedrinkers?find=ByEmailLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="9758aUEt96XJt5xrqVVQj0NuFUI="/>
+            <menu:item id="fi_coffeedrinker_firstnamelike" messageCode="global_menu_find" url="/coffeedrinkers?find=ByFirstNameLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="tAXj+Eub5zQTgxGBWRresiT4qII="/>
+            <menu:item id="fi_coffeedrinker_lastnamelike" messageCode="global_menu_find" url="/coffeedrinkers?find=ByLastNameLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Un7jEyzoyOQ/P4Sn/6MP0uNKKpA="/>
+        </menu:category>
+        <menu:category id="c_cleanup" z="h7CMIiHUrOfuS/h4j1yEHZ4GarU=">
+            <menu:item id="i_cleanup_new" messageCode="global_menu_new" url="/cleanups?form" z="4zaA3qvrk3EH1E3S00oy0dQENeM="/>
+            <menu:item id="i_cleanup_list" messageCode="global_menu_list" url="/cleanups?page=1&amp;size=${empty param.size ? 10 : param.size}" z="vnSBev8P43mbgGq3aczxni9z/XE="/>
+            <menu:item id="fi_cleanup_cleanuptype" messageCode="global_menu_find" url="/cleanups?find=ByCleanUpType&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="tPbr8gJ5HVHEstiRCiwQlF7e+Gg="/>
+            <menu:item id="fi_cleanup_coffeedrinker" messageCode="global_menu_find" url="/cleanups?find=ByCoffeeDrinker&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="M5QofyJ6wvVMWLweKg01OQSp8vE="/>
+            <menu:item id="fi_cleanup_eventdatebetween" messageCode="global_menu_find" url="/cleanups?find=ByEventDateBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="UBp5M95XUdHNXoIXU4HcSpQsfLw="/>
+            <menu:item id="fi_cleanup_eventdateequals" messageCode="global_menu_find" url="/cleanups?find=ByEventDateEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Ff78+pbKdEob2S33JVuA3UfNiz8="/>
+            <menu:item id="fi_cleanup_eventdategreaterthanequals" messageCode="global_menu_find" url="/cleanups?find=ByEventDateGreaterThanEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="d/WHRO9Z9cx9ve6FE3Rw2QP5v+4="/>
+            <menu:item id="fi_cleanup_eventdatelessthanequals" messageCode="global_menu_find" url="/cleanups?find=ByEventDateLessThanEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="YVwoA4+M3TVdBPsT3nwO9X1uRic="/>
+        </menu:category>
+        <menu:category id="c_makepayment" z="umt2iIB+Gdgr9mWqL5NzTguIZG0=">
+            <menu:item id="i_makepayment_new" messageCode="global_menu_new" url="/makepayments?form" z="Lmc4bsHzq8Fj3ozrCPm3jTTXjVk="/>
+            <menu:item id="i_makepayment_list" messageCode="global_menu_list" url="/makepayments?page=1&amp;size=${empty param.size ? 10 : param.size}" z="6gMHEI+3R9Eh1Budb51Xu0qY1PI="/>
+            <menu:item id="fi_makepayment_coffeedrinker" messageCode="global_menu_find" url="/makepayments?find=ByCoffeeDrinker&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Z4GTgjRVp99T+PHGwgFI2Bgcsmk="/>
+            <menu:item id="fi_makepayment_eventdateequals" messageCode="global_menu_find" url="/makepayments?find=ByEventDateEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="8f0nsZtFpE1piAqxtDVdytgOeds="/>
+            <menu:item id="fi_makepayment_eventdategreaterthanequals" messageCode="global_menu_find" url="/makepayments?find=ByEventDateGreaterThanEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="G7CvuJXsqkh0QuMVg9GZvGu63a0="/>
+            <menu:item id="fi_makepayment_eventdatelessthanequals" messageCode="global_menu_find" url="/makepayments?find=ByEventDateLessThanEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="0w6A4aVbkzNfmujjDVEbsP5M3cQ="/>
+            <menu:item id="fi_makepayment_pricebetween" messageCode="global_menu_find" url="/makepayments?find=ByPriceBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="EWd8A+DH5yk2MaHxaKptVBVDqYw="/>
+        </menu:category>
+    </menu:menu>
+</div>

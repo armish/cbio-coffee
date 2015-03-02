@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByCleanUpType" id="ff_org_mskcc_cbio_fun_model_event_CleanUp" path="/cleanups" z="SE75wpc8hXmo1Duqq+pkRI/t+nk=">
+        <field:select disableFormBinding="true" field="cleanUpType" id="f_org_mskcc_cbio_fun_model_event_CleanUp_cleanUpType" items="${cleanuptypes}" path="/cleanuptypes" required="true" z="Ki2qOeUjuJOMWJLRsJ/vp6OLyDs="/>
+    </form:find>
+</div>

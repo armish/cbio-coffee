@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="makepayments/list">
+        <put-attribute name="body" value="/WEB-INF/views/makepayments/list.jspx"/>
+    </definition>
+<definition extends="default" name="makepayments/show">
+        <put-attribute name="body" value="/WEB-INF/views/makepayments/show.jspx"/>
+    </definition>
+<definition extends="default" name="makepayments/create">
+        <put-attribute name="body" value="/WEB-INF/views/makepayments/create.jspx"/>
+    </definition>
+<definition extends="default" name="makepayments/update">
+        <put-attribute name="body" value="/WEB-INF/views/makepayments/update.jspx"/>
+    </definition>
+<definition extends="default" name="makepayments/findMakePaymentsByCoffeeDrinker">
+        <put-attribute name="body" value="/WEB-INF/views/makepayments/findMakePaymentsByCoffeeDrinker.jspx"/>
+    </definition>
+<definition extends="default" name="makepayments/findMakePaymentsByEventDateEquals">
+        <put-attribute name="body" value="/WEB-INF/views/makepayments/findMakePaymentsByEventDateEquals.jspx"/>
+    </definition>
+<definition extends="default" name="makepayments/findMakePaymentsByEventDateGreaterThanEquals">
+        <put-attribute name="body" value="/WEB-INF/views/makepayments/findMakePaymentsByEventDateGreaterThanEquals.jspx"/>
+    </definition>
+<definition extends="default" name="makepayments/findMakePaymentsByEventDateLessThanEquals">
+        <put-attribute name="body" value="/WEB-INF/views/makepayments/findMakePaymentsByEventDateLessThanEquals.jspx"/>
+    </definition>
+<definition extends="default" name="makepayments/findMakePaymentsByPriceBetween">
+        <put-attribute name="body" value="/WEB-INF/views/makepayments/findMakePaymentsByPriceBetween.jspx"/>
+    </definition>
+</tiles-definitions>

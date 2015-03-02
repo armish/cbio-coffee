@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByEmailLike" id="ff_org_mskcc_cbio_fun_model_CoffeeDrinker" path="/coffeedrinkers" z="IrZIBrqFO5/SDdmyAJ98GJ4alQ0=">
+        <field:input disableFormBinding="true" field="email" id="f_org_mskcc_cbio_fun_model_CoffeeDrinker_email" max="50" required="true" validationMessageCode="field_invalid_email" z="SsKjhEKWSGJRGzPBRq4TiDzwJ30="/>
+    </form:find>
+</div>

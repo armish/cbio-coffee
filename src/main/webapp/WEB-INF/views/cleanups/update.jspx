@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_mskcc_cbio_fun_model_event_CleanUp" modelAttribute="cleanUp" path="/cleanups" versionField="Version" z="/+AZjuImgIthnh9+qD5EwvD82Vs=">
+        <field:datetime dateTimePattern="${cleanUp_eventdate_date_format}" field="eventDate" id="c_org_mskcc_cbio_fun_model_event_CleanUp_eventDate" required="true" z="h/XhmsqJ8hkKqKXhQmWhMtMBKzc="/>
+        <field:select field="coffeeDrinker" id="c_org_mskcc_cbio_fun_model_event_CleanUp_coffeeDrinker" itemValue="id" items="${coffeedrinkers}" path="/coffeedrinkers" required="true" z="k0si/gEjPQQYWgMyY1z6+ixLmkA="/>
+        <field:select field="cleanUpType" id="c_org_mskcc_cbio_fun_model_event_CleanUp_cleanUpType" items="${cleanuptypes}" path="cleanuptypes" required="true" z="vOApsOA7T3kv+N995yT76lP2mNY="/>
+    </form:update>
+</div>

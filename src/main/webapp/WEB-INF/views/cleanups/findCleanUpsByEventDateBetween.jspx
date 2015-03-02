@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByEventDateBetween" id="ff_org_mskcc_cbio_fun_model_event_CleanUp" path="/cleanups" z="2VF4V3QLB1ovJBOWps+EccuCPT0=">
+        <field:datetime dateTimePattern="${cleanUp_eventdate_date_format}" disableFormBinding="true" field="minEventDate" id="f_org_mskcc_cbio_fun_model_event_CleanUp_minEventDate" required="true" z="b9W8CFsDB2RPIulSrTol9Q4r50E="/>
+        <field:datetime dateTimePattern="${cleanUp_eventdate_date_format}" disableFormBinding="true" field="maxEventDate" id="f_org_mskcc_cbio_fun_model_event_CleanUp_maxEventDate" required="true" z="6Ne+im8c1U6YsCkZJL2gzV7bGF4="/>
+    </form:find>
+</div>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="cleanups/list">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/list.jspx"/>
+    </definition>
+<definition extends="default" name="cleanups/show">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/show.jspx"/>
+    </definition>
+<definition extends="default" name="cleanups/create">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/create.jspx"/>
+    </definition>
+<definition extends="default" name="cleanups/update">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/update.jspx"/>
+    </definition>
+<definition extends="default" name="cleanups/findCleanUpsByCleanUpType">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/findCleanUpsByCleanUpType.jspx"/>
+    </definition>
+<definition extends="default" name="cleanups/findCleanUpsByCoffeeDrinker">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/findCleanUpsByCoffeeDrinker.jspx"/>
+    </definition>
+<definition extends="default" name="cleanups/findCleanUpsByEventDateBetween">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/findCleanUpsByEventDateBetween.jspx"/>
+    </definition>
+<definition extends="default" name="cleanups/findCleanUpsByEventDateEquals">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/findCleanUpsByEventDateEquals.jspx"/>
+    </definition>
+<definition extends="default" name="cleanups/findCleanUpsByEventDateGreaterThanEquals">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/findCleanUpsByEventDateGreaterThanEquals.jspx"/>
+    </definition>
+<definition extends="default" name="cleanups/findCleanUpsByEventDateLessThanEquals">
+        <put-attribute name="body" value="/WEB-INF/views/cleanups/findCleanUpsByEventDateLessThanEquals.jspx"/>
+    </definition>
+</tiles-definitions>

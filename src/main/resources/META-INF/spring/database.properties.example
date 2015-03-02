@@ -1,0 +1,6 @@
+#Updated at Mon Mar 02 14:01:59 EST 2015
+#Mon Mar 02 14:01:59 EST 2015
+database.password=
+database.url=jdbc\:mysql\://localhost\:3306/cbio_coffee
+database.username=cbio
+database.driverClassName=com.mysql.jdbc.Driver

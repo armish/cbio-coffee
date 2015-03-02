@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_mskcc_cbio_fun_model_event_DrinkCoffee" items="${drinkcoffees}" z="eSUdrNcm8Vn2nv+4/pwduy81U30=">
+        <table:table data="${drinkcoffees}" id="l_org_mskcc_cbio_fun_model_event_DrinkCoffee" path="/drinkcoffees" z="+ejETHgy0uuAGZkc1kMUSqq0gNw=">
+            <table:column date="true" dateTimePattern="${drinkCoffee_eventdate_date_format}" id="c_org_mskcc_cbio_fun_model_event_DrinkCoffee_eventDate" property="eventDate" z="HDTs+zq6Ytiau7Z+X/wQYQ7mIqY="/>
+            <table:column id="c_org_mskcc_cbio_fun_model_event_DrinkCoffee_coffeeDrinker" property="coffeeDrinker" z="xzzZolbdE7Sa5a1g+Ml4vfaoU8Q="/>
+            <table:column id="c_org_mskcc_cbio_fun_model_event_DrinkCoffee_price" property="price" z="7M40rNC9Ld9Cjw2zRROHuVTtF0U="/>
+        </table:table>
+    </page:list>
+</div>
