@@ -1,20 +1,14 @@
 // Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2015-03-02 13:55:15
-hint
 project --topLevelPackage org.mskcc.cbio.fun
-hint
 jpa setup --provider HIBERNATE --database MYSQL 
-hint
 database properties list
 database properties set --key database.username --value cbio
 database properties set --key database.url --value jdbc:mysql://localhost:3306/cbio_coffee
 database properties list
-// [failed] entity jpa --class ~.model.User --testAutomatically --activeRecord true
 entity jpa --class ~.model.CoffeeDrinker --testAutomatically --activeRecord true
 field string firstName --notNull --sizeMin 1 --sizeMax 30
 field string lastName --notNull --sizeMin 1 --sizeMax 30
 field string email --sizeMax 50
-entity jpa --class ~.model.CoffeeMachineEvent --testAutomatically --activeRecord true
-enum type --class ~.model.CoffeeMachineEventType
 entity jpa --class ~.model.event.DrinkCoffee --testAutomatically --activeRecord true
 field date --fieldName eventDate --type java.util.Date
 field reference --fieldName coffeeDrinker --type ~.model.CoffeeDrinker --notNull 
@@ -30,7 +24,6 @@ entity jpa --class ~.model.event.CleanUp --testAutomatically --activeRecord true
 field date --fieldName eventDate --type java.util.Date --notNull
 field reference --fieldName coffeeDrinker --type ~.model.CoffeeDrinker --notNull 
 field enum --fieldName cleanUpType --type ~.model.event.CleanUpType --notNull
-finder list 
 finder add --finderName findCleanUpsByCleanUpType
 finder add --finderName findCleanUpsByCoffeeDrinker
 finder add --finderName findCleanUpsByEventDateBetween
@@ -38,21 +31,18 @@ finder add --finderName findCleanUpsByEventDateEquals
 finder add --finderName findCleanUpsByEventDateGreaterThanEquals
 finder add --finderName findCleanUpsByEventDateLessThanEquals
 focus --class ~.model.event.DrinkCoffee
-finder list 
 finder add --finderName findDrinkCoffeesByCoffeeDrinker
 finder add --finderName findDrinkCoffeesByEventDateGreaterThan
 finder add --finderName findDrinkCoffeesByEventDateLessThanEquals
 finder add --finderName findDrinkCoffeesByEventDateEquals
 finder add --finderName findDrinkCoffeesByPriceBetween
 focus --class ~.model.event.MakePayment
-finder list 
 finder add --finderName findMakePaymentsByCoffeeDrinker
 finder add --finderName findMakePaymentsByEventDateEquals
 finder add --finderName findMakePaymentsByEventDateGreaterThanEquals
 finder add --finderName findMakePaymentsByEventDateLessThanEquals
 finder add --finderName findMakePaymentsByPriceBetween
 focus --class ~.model.CoffeeDrinker
-finder list
 finder add --finderName findCoffeeDrinkersByEmailEquals
 finder add --finderName findCoffeeDrinkersByFirstNameLike
 finder add --finderName findCoffeeDrinkersByLastNameLike
@@ -62,7 +52,5 @@ web mvc all --package ~.web
 web mvc finder all
 logging setup --level INFO
 json all --deepSerialize 
-help metadata 
-help email
 email sender setup --hostServer localhost
 email template setup 
